@@ -6,6 +6,11 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
+        "sonata-project/admin-bundle": "^3.53",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.10",
+        "sonata-project/translation-bundle": "^2.4",
+        "sonata-project/user-bundle": "^4.4",
+        "symfony/acl-bundle": "^1.0",
         "symfony/asset": "4.3.*",
         "symfony/console": "4.3.*",
         "symfony/dotenv": "4.3.*",
@@ -16,7 +21,7 @@
         "symfony/http-client": "4.3.*",
         "symfony/intl": "4.3.*",
         "symfony/monolog-bundle": "^3.1",
-        "symfony/orm-pack": "*",
+        "symfony/orm-pack": "^1.0",
         "symfony/process": "4.3.*",
         "symfony/security-bundle": "4.3.*",
         "symfony/serializer-pack": "*",
@@ -75,7 +80,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "4.3.*"
         }
     }

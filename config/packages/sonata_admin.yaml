@@ -1,0 +1,15 @@
+sonata_admin:
+    title: 'Sonata Admin'
+    dashboard:
+        blocks:
+            - { type: sonata.admin.block.admin_list, position: left }
+    security:
+        handler: sonata.admin.security.handler.acl
+    assets:
+        extra_stylesheets:
+            - bundles/sonatatranslation/css/sonata-translation.css
+
+sonata_block:
+    blocks:
+        sonata.admin.block.admin_list:
+            contexts: [admin]
